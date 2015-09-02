@@ -13,9 +13,18 @@
         android:paddingTop="@dimen/activity_vertical_margin"
         tools:context=".MainActivity">
 
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:id="@+id/edit_text_view"
+            android:inputType="textCapWords"
+            />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
             android:paddingBottom="16dp"
             android:text="@string/toppings_label"
             android:textAllCaps="true"
@@ -90,7 +99,6 @@
             android:layout_height="wrap_content"
             android:paddingBottom="16dp"
             android:text="@string/price_text_view"
-            android:textAllCaps="true"
             android:textColor="#000000"
             android:textSize="16sp" />
 
